@@ -12,7 +12,7 @@ import java.util.Optional;
 
 /**
  * Carga los usuarios desde MongoDB para la autenticación.
- * El rol (ADMIN/USER) se obtiene del campo "role" del documento.
+ * El rol (ADMIN/USER) se obtiene del campo "role"
  */
 @Service
 class AppUserDetailsService implements UserDetailsService {
